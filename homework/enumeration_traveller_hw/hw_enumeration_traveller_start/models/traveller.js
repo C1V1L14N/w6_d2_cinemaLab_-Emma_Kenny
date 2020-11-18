@@ -28,6 +28,8 @@ Traveller.prototype.calculateTotalDistanceTravelled = function () {
   }, 0);
 };
 
+
+//I could not make this work.
 // Traveller.prototype.getUniqueModesOfTransport = function () {
 //   return this.journeys.map((journey) => {
 //     return new Set(journey.transport)

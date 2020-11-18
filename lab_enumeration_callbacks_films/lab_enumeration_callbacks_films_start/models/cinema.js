@@ -34,10 +34,10 @@ Cinema.prototype.filterFilmsByDuration = function(time){
 }
 
 Cinema.prototype.totalRunningTime = function(){
-  const total = this.films.length.reduce((accumulator, 1) => {
+  return this.films.reduce((total, film) => {
+    return total += film.length;
+    }, 0);
 
-    })
-    return total;
 }
 
 module.exports = Cinema;
